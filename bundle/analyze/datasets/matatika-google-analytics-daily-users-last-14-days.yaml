@@ -1,0 +1,34 @@
+version: "0.1"
+datasets:
+  matatika-google-analytics-daily-users-last-14-days:
+    source: null
+    title: "Google Analytics Daily Users Last 14 Days"
+    questions: ‘How many users has there been over the last 14 days?’
+    description: |-
+      Daily users over the last 14 days.
+
+      #google-analytics
+    metadata: |-
+      {
+         "name": "google_analytics_locations",
+         "label": "Daily Users",
+         "related_table": {
+            "columns": [
+               {"name": "report_date", "label": "Date", "description": "Date"}
+            ], 
+            "aggregates": [
+               {"name": "total_users", "label": "Total Users", "description": "Total Users"}
+            ]
+         }
+      }
+    visualisation: |-
+      {"chartjs-chart": {"chartType": "bar"}}
+    query: |-
+      select 
+        report_date "google_analytics_locations.report_date"
+        , sum(users) "google_analytics_locations.total_users"
+      from google_analytics_locations
+      where report_date >= current_date - interval '14' day
+      and report_date < current_date
+      group by report_date 
+      order by report_date 
