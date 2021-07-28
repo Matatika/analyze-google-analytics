@@ -123,7 +123,7 @@ google-analytics-active-user-trends: |-
   "google_analytics_active_user_stats.weekly_active_users": 209,
   "google_analytics_active_user_stats.two_weekly_active_users": "385",
   "google_analytics_active_user_stats.four_weekly_active_users": "642"}]
-matatika-google-analytics-sessions-users-yesterday-vs-day-before: |-
+google-analytics-sessions-users-yesterday-vs-day-before: |-
   [{"google_analytics_website_overview.report_date": "12/07/21",
   "google_analytics_website_overview.sessions": 1105,
   "google_analytics_website_overview.users": "319",
