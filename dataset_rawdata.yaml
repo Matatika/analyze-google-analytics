@@ -136,3 +136,18 @@ google-analytics-sessions-users-yesterday-vs-day-before: |-
   "google_analytics_website_overview.sessions": 821,
   "google_analytics_website_overview.users": "174",
   "google_analytics_website_overview.new_users": "423"}]
+google-analytics-traffic-sources-last-30-days: |-
+  [{"google_analytics_traffic_sources.total_users": "1544", "google_analytics_traffic_sources.traffic_source": "google"},
+  {"google_analytics_traffic_sources.total_users": "948", "google_analytics_traffic_sources.traffic_source": "linkedin"},
+  {"google_analytics_traffic_sources.total_users": "720", "google_analytics_traffic_sources.traffic_source": "slack"},
+  {"google_analytics_traffic_sources.total_users": "176", "google_analytics_traffic_sources.traffic_source": "github"},
+  {"google_analytics_traffic_sources.total_users": "88", "google_analytics_traffic_sources.traffic_source": "medium"}]
+google-analytics-user-locataions-last-90-days: |-
+  [{"google_analytics_locations.africa": "117",
+  "google_analytics_locations.antarctica": 2,
+  "google_analytics_locations.asia": 681,
+  "google_analytics_locations.europe": 1217,
+  "google_analytics_locations.north_america": 2741,
+  "google_analytics_locations.oceania": 492,
+  "google_analytics_locations.south_america": 219
+  }]
