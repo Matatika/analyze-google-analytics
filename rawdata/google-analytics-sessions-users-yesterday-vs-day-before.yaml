@@ -1,0 +1,13 @@
+google-analytics-sessions-users-yesterday-vs-day-before: |-
+  [{"google_analytics_website_overview.report_date": "12/07/21",
+  "google_analytics_website_overview.sessions": 1105,
+  "google_analytics_website_overview.users": "319",
+  "google_analytics_website_overview.new_users": "567"},
+  {"google_analytics_website_overview.report_date": "18/07/21",
+  "google_analytics_website_overview.sessions": 740,
+  "google_analytics_website_overview.users": "142",
+  "google_analytics_website_overview.new_users": "406"},
+  {"google_analytics_website_overview.report_date": "19/07/21",
+  "google_analytics_website_overview.sessions": 821,
+  "google_analytics_website_overview.users": "174",
+  "google_analytics_website_overview.new_users": "423"}]

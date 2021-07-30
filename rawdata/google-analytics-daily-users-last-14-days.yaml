@@ -1,0 +1,16 @@
+google-analytics-daily-users-last-14-days: |- 
+  [{"google_analytics_locations.report_date": "06/07/21", "google_analytics_locations.total_users": "17"},
+  {"google_analytics_locations.report_date": "06/07/21", "google_analytics_locations.total_users": "17"},
+  {"google_analytics_locations.report_date": "07/07/21", "google_analytics_locations.total_users": "16"},
+  {"google_analytics_locations.report_date": "08/07/21", "google_analytics_locations.total_users": "14"},
+  {"google_analytics_locations.report_date": "09/07/21", "google_analytics_locations.total_users": "17"},
+  {"google_analytics_locations.report_date": "10/07/21", "google_analytics_locations.total_users": "25"},
+  {"google_analytics_locations.report_date": "11/07/21", "google_analytics_locations.total_users": "18"},
+  {"google_analytics_locations.report_date": "12/07/21", "google_analytics_locations.total_users": "22"},
+  {"google_analytics_locations.report_date": "13/07/21", "google_analytics_locations.total_users": "24"},
+  {"google_analytics_locations.report_date": "14/07/21", "google_analytics_locations.total_users": "21"},
+  {"google_analytics_locations.report_date": "15/07/21", "google_analytics_locations.total_users": "19"},
+  {"google_analytics_locations.report_date": "16/07/21", "google_analytics_locations.total_users": "27"},
+  {"google_analytics_locations.report_date": "17/07/21", "google_analytics_locations.total_users": "28"},
+  {"google_analytics_locations.report_date": "18/07/21", "google_analytics_locations.total_users": "21"},
+  {"google_analytics_locations.report_date": "19/07/21", "google_analytics_locations.total_users": "29"}]
