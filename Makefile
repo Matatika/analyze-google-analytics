@@ -17,7 +17,7 @@ venv:
 datasets:
 	git clone https://github.com/Matatika/matatika-dataset-to-html.git
 	mv matatika-dataset-to-html/matatika_dataset_to_html.py bundle/analyze/datasets/
-	source venv/bin/activate && python bundle/analyze/datasets/matatika_dataset_to_html.py || python bundle/analyze/datasets/matatika_dataset_to_html.py
+	source venv/bin/activate && python bundle/analyze/datasets/matatika_dataset_to_html.py --datasets bundle/analyze/datasets/ --rawdata rawdata/ || python bundle/analyze/datasets/matatika_dataset_to_html.py --datasets bundle/analyze/datasets/ --rawdata rawdata/
 	rm -rf matatika-dataset-to-html
 	rm bundle/analyze/datasets/matatika_dataset_to_html.py
 clean:
