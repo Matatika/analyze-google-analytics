@@ -27,17 +27,20 @@ metadata: |-
 visualisation: |-
   {
     "chartjs-chart": {
-      "chartType": "doughnut"
+      "chartType": "doughnut",
+      "options": {
+        "plugins": { "datalabels": { "display": true } }
+      }
     }
   }
 query: |-
   SELECT
-  SUM(CASE WHEN continent = 'Africa' THEN users ELSE 0 END) "google_analytics_locations.africa"
-    , SUM(CASE WHEN continent = 'Antarctica' THEN users ELSE 0 END) "google_analytics_locations.antarctica"
-    , SUM(CASE WHEN continent = 'Asia' THEN users ELSE 0 END) "google_analytics_locations.asia"
-    , SUM(CASE WHEN continent = 'Europe' THEN users ELSE 0 END) "google_analytics_locations.europe"
-    , SUM(CASE WHEN continent = 'North America' THEN users ELSE 0 END) "google_analytics_locations.north_america"
-    , SUM(CASE WHEN continent = 'Oceania' THEN users ELSE 0 END) "google_analytics_locations.oceania"
-    , SUM(CASE WHEN continent = 'South America' THEN users ELSE 0 END) "google_analytics_locations.south_america"
+  SUM(CASE WHEN continent = 'Africa' THEN users ELSE null END) "google_analytics_locations.africa"
+    , SUM(CASE WHEN continent = 'Antarctica' THEN users ELSE null END) "google_analytics_locations.antarctica"
+    , SUM(CASE WHEN continent = 'Asia' THEN users ELSE null END) "google_analytics_locations.asia"
+    , SUM(CASE WHEN continent = 'Europe' THEN users ELSE null END) "google_analytics_locations.europe"
+    , SUM(CASE WHEN continent = 'North America' THEN users ELSE null END) "google_analytics_locations.north_america"
+    , SUM(CASE WHEN continent = 'Oceania' THEN users ELSE null END) "google_analytics_locations.oceania"
+    , SUM(CASE WHEN continent = 'South America' THEN users ELSE null END) "google_analytics_locations.south_america"
   FROM google_analytics_locations
   WHERE report_date >= current_date - interval '90' day
