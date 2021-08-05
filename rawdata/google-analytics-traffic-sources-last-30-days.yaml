@@ -1,6 +1,6 @@
 google-analytics-traffic-sources-last-30-days: |-
   [{"google_analytics_traffic_sources.total_users": "1544", "google_analytics_traffic_sources.traffic_source": "google"},
-  {"google_analytics_traffic_sources.total_users": "948", "google_analytics_traffic_sources.traffic_source": "linkedin"},
+  {"google_analytics_traffic_sources.total_users": "948", "google_analytics_traffic_sources.traffic_source": "direct"},
   {"google_analytics_traffic_sources.total_users": "720", "google_analytics_traffic_sources.traffic_source": "slack"},
-  {"google_analytics_traffic_sources.total_users": "176", "google_analytics_traffic_sources.traffic_source": "github"},
-  {"google_analytics_traffic_sources.total_users": "88", "google_analytics_traffic_sources.traffic_source": "medium"}]
+  {"google_analytics_traffic_sources.total_users": "176", "google_analytics_traffic_sources.traffic_source": "linkedin"},
+  {"google_analytics_traffic_sources.total_users": "88", "google_analytics_traffic_sources.traffic_source": "github"}]
