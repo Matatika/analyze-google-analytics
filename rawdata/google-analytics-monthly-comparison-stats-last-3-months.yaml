@@ -1,0 +1,16 @@
+google-analytics-monthly-comparison-stats-last-3-months: |-
+  [{"gamcs.year_month": "2021-06", 
+  "gamcs.users_increase_percent": "4.5",
+  "gamcs.new_users_increase_percent": "4.1",
+  "gamcs.sessions_increase_percent": "8.2",
+  "gamcs.bounce_rate_increase_percent": "-0.9"},
+  {"gamcs.year_month": "2021-07", 
+  "gamcs.users_increase_percent": "-0.5",
+  "gamcs.new_users_increase_percent": "2.9",
+  "gamcs.sessions_increase_percent": "-1.2",
+  "gamcs.bounce_rate_increase_percent": "7.9"},
+  {"gamcs.year_month": "2021-08", 
+  "gamcs.users_increase_percent": "2.5",
+  "gamcs.new_users_increase_percent": "6.2",
+  "gamcs.sessions_increase_percent": "5.5",
+  "gamcs.bounce_rate_increase_percent": "-1.3"}]
