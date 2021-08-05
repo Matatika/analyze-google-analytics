@@ -1,0 +1,6 @@
+google-analytics-top-5-user-countries-last-90-days: |-
+  [{"google_analytics_locations.country": "United Kingdom", "google_analytics_locations.total_users": "4014"},
+  {"google_analytics_locations.country": "Canada", "google_analytics_locations.total_users": "886"},
+  {"google_analytics_locations.country": "United States", "google_analytics_locations.total_users": "641"},
+  {"google_analytics_locations.country": "Bulgaria", "google_analytics_locations.total_users": "488"},
+  {"google_analytics_locations.country": "India", "google_analytics_locations.total_users": "380"}]
