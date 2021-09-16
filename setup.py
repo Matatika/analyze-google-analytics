@@ -7,7 +7,7 @@ setup(
     packages=find_packages(),
     package_data={
         "bundle": [
-            "analyze/datasets/*.yaml"
+            "analyze/datasets/tap-google-analytics/*.yaml"
         ]
     },
 )
