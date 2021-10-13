@@ -1,5 +1,5 @@
 version: datasets/v0.2
-source: null
+source: tap-google-analytics
 title: "Google Analytics Monthly Comparison Stats Last 3 Months"
 questions: ‘How are our analytics tracking comparatively for the last 3 months?’
 description: |-

@@ -1,5 +1,5 @@
 version: datasets/v0.2
-source: null
+source: tap-google-analytics
 title: "Google Analytics Top 10 Pages Viewed Last 30 days"
 questions: ‘What are our most viewed pages in the last 30 days’
 description: |-
