@@ -37,7 +37,7 @@ query: |-
     country "google_analytics_locations.country"
     , sum(users) "google_analytics_locations.total_users"
   FROM google_analytics_locations
-  WHERE report_date >= current_date - interval '90' day
+  WHERE report_date >= current_date - interval '90 day'
   GROUP BY country
   ORDER BY sum(users) DESC, country ASC
   LIMIT 5;

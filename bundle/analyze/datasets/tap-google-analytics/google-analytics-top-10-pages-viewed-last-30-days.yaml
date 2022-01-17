@@ -47,7 +47,7 @@ query: |-
     , sum(pageviews) "google_analytics_pages.sum_pageviews"
     , sum(unique_pageviews) "google_analytics_pages.sum_unique_pageviews"
   FROM google_analytics_pages
-  WHERE report_date >= current_date - interval '30' day
+  WHERE report_date >= current_date - interval '30 day'
   GROUP BY page_path
   ORDER BY sum(pageviews) DESC
   LIMIT 10;

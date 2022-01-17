@@ -30,5 +30,5 @@ query: |-
     , two_weekly_active_users "google_analytics_active_user_stats.two_weekly_active_users"
     , four_weekly_active_users "google_analytics_active_user_stats.four_weekly_active_users"
   FROM google_analytics_active_user_stats
-  WHERE report_date >= current_date - interval '28' day
+  WHERE report_date >= current_date - interval '28 day'
   AND report_date < current_date

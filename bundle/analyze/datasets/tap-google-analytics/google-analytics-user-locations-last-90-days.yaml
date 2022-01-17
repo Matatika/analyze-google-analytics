@@ -43,4 +43,4 @@ query: |-
     , SUM(CASE WHEN continent = 'Oceania' THEN users ELSE null END) "google_analytics_locations.oceania"
     , SUM(CASE WHEN continent = 'South America' THEN users ELSE null END) "google_analytics_locations.south_america"
   FROM google_analytics_locations
-  WHERE report_date >= current_date - interval '90' day
+  WHERE report_date >= current_date - interval '90 day'

@@ -37,6 +37,6 @@ query: |-
     count(*) "google_analytics_traffic_sources.total_users"
     , source "google_analytics_traffic_sources.traffic_source"
   FROM google_analytics_traffic_sources
-  WHERE report_date >= current_date - interval '30' day
+  WHERE report_date >= current_date - interval '30 day'
   GROUP BY "google_analytics_traffic_sources.traffic_source"
   ORDER BY "google_analytics_traffic_sources.total_users" DESC

@@ -32,5 +32,5 @@ query: |-
     , sessions_increase_percent "gamcs.sessions_increase_percent"
     , bounce_rate_increase_percent "gamcs.bounce_rate_increase_percent"
   FROM google_analytics_monthly_comparison_stats
-  WHERE month_start >= current_date - interval '3' month
+  WHERE month_start >= current_date - interval '3 month'
   ORDER BY month_start ASC
