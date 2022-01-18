@@ -30,4 +30,4 @@ query: |-
   	, users "google_analytics_website_overview.users"
     , new_users "google_analytics_website_overview.new_users"
   FROM google_analytics_website_overview
-  WHERE (report_date > current_date - interval '3 day' OR report_date = current_date - interval '8 day')
+  WHERE report_date > current_date - interval '3 day'
