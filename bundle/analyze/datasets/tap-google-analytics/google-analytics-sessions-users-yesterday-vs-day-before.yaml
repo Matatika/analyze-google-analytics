@@ -22,7 +22,18 @@ metadata: |-
       }
   }
 visualisation: |-
-  {"chartjs-chart": {"chartType": "bar"}}
+  {"chartjs-chart": {"chartType": "bar", 
+      "options": {
+        "scales": {
+          "yAxes": [{
+            "ticks": {
+              "beginAtZero": true
+            }
+          }]
+        }
+      }
+    }
+  }
 query: |-
   SELECT 
   	report_date "google_analytics_website_overview.report_date"
