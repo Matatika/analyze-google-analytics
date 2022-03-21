@@ -27,16 +27,14 @@ visualisation: |-
   {"chartjs-chart": {"chartType": "bar", 
       "options": {
         "scales": {
-          "yAxes": [{
-            "ticks": {
-              "beginAtZero": true
-            }
-          }],
-          "xAxes": [{
+          "y": {
+            "beginAtZero": true
+          },
+          "x": {
             "ticks": {
               "display": false
             }
-          }]
+          }
         }
       }
     }

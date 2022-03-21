@@ -23,11 +23,9 @@ visualisation: |-
   {"chartjs-chart": {"chartType": "bar", 
       "options": {
         "scales": {
-          "yAxes": [{
-            "ticks": {
-              "beginAtZero": true
-            }
-          }]
+          "y": {
+            "beginAtZero": true
+          }
         }
       }
     }
@@ -40,4 +38,4 @@ query: |-
   WHERE report_date >= current_date - interval '14 day'
   AND report_date < current_date
   GROUP BY report_date 
-  ORDER BY report_date 
+  ORDER BY report_date
