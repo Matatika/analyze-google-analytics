@@ -9,4 +9,9 @@
 html_charts/
 output/
 
+# Python build files
+*.egg-info
+build
+__pycache__
+
 .project
